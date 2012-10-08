@@ -6,7 +6,6 @@ $(document).ready(function() {
 	     $("p.scroll").fadeOut('slow');
 	  });
 	});
-	console.log(navigator.platform)
 });
 
 function getInfo() {
