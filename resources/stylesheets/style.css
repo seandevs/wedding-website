@@ -1,0 +1,300 @@
+@font-face{font-family:'shappens';font-weight:normal;font-style:normal;src:url("../fonts/typesetit_alex-brush/AlexBrush-Regular.ttf")}
+/*css reset*/
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
+
+a {
+	color: #444;
+}
+
+a:hover {
+	color: #111;
+}
+
+body {
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	color: #fff;
+	text-align: center;
+	background-color: #201303;
+	background-image: url("../images/jackie_sean_wedding_3.jpeg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: 50% 50%;
+	min-width: 640px;
+}
+
+html.backgroundsize body { 
+    background: #201303 url("../images/jackie_sean_wedding_3.jpeg") no-repeat center center fixed; 
+    background-size: cover;
+}
+
+#top_area {
+	width: 100%;
+	height: 700px;
+	position: relative;
+/*	background-image: url("../images/jackie_sean_wedding_3.jpeg");
+	background-repeat: no-repeat;*/
+	/*background-attachment: fixed;
+/*	background-size: cover;
+	background-position: 50% 50%;
+	min-width: 640px;	*/
+}
+
+#primary_info {
+	float: left;
+	position: relative;
+	top: 40px;
+	left: 80px;
+	font-size: 2em;
+	font-family: 'shappens';
+	color: #999;
+}
+
+#primary_info .location {
+	font-size: .5em;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+#primary_info h1 {
+	color: #999;
+	font-size: 1em;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	text-decoration: none;
+	padding-bottom: 5px;
+	margin-top: -3px;
+}
+
+p.scroll {
+	color: #fff;
+	display: none;
+	text-align: right;
+	position: fixed;
+	bottom: 20px;
+	right: 23px;
+	font-size: 1.2em;
+}
+
+p.scroll:after {
+	content:"";
+	width: 0px;
+	height: 0px;
+	border-style: solid;
+	border-width: 6px 6px 0 6px;
+	border-color: #fff transparent transparent transparent;	
+	position: relative;
+	top: 16px;
+	left: 5px;
+}
+
+
+section {
+	background-color: #fff;
+	width: 100%;
+	overflow: hidden;
+	padding-bottom: 50px;		
+}
+
+section h2 {
+	font-family: 'shappens';
+	/*font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;*/
+	padding: 30px 0 0;
+	color: #000;
+	font-size: 3em;		
+}
+
+section p {
+	color: #000;
+	margin: 0;
+	padding: 0;
+}	
+
+section ul {
+ 	margin: 50px auto 0;
+ 	width: 80%;
+}
+
+section li {
+	width: 100%;
+	clear: both;
+	/*float: left;*/
+	/*padding-left: 20px;*/
+}
+
+section li h3 {
+	color: #888;
+	padding-top: 30px;
+	padding-bottom: 10px;
+	font-size: 1.5em;
+	font-family: 'shappens';
+}
+
+section li p {
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	color: #888;
+	font-size: 1em;	
+	padding: 0;
+	margin: 0;
+	line-height: 1.5;
+}
+
+section img {
+	float: left;
+	width: 400px;
+	border: 1px solid #999;	
+	margin-bottom: 30px;
+	margin-right: 20px;
+	padding: 0;	
+	border-radius: 3px;
+}
+
+section h4 {
+	color: #4B0082;;
+	padding: 25px 0 5px;
+	margin: 0;
+}
+
+span {
+	font-size: 1.3em;
+	font-style: italic;
+	color: #ccc;
+	font-weight: 100;
+	padding-top: 5px;
+}
+
+p.our_info {
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	color: #888;
+	line-height: 1.5;
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;	
+}
+
+
+.men {
+	float: right !important;
+	margin: 0 0 30px 20px !important;
+	height: 300px;
+	width: 400px;
+}
+
+#jen_pic {
+	background:url("../images/jen_and_jackie.jpeg") 0 0;	
+}
+
+#jen_pic:hover {
+	background:url("../images/jen_and_jackie.jpeg") 0 300px;		
+}
+
+#meg_d_pic {
+	background:url("../images/meg_d_and_jackie.jpeg") 0 0;	
+}
+
+#meg_d_pic:hover {
+	background:url("../images/meg_d_and_jackie.jpeg") 0 300px;		
+}
+
+#lauren_e_pic {
+	background:url("../images/lauren_e_and_jackie.jpeg") 0 0;	
+}
+
+#lauren_e_pic:hover {
+	background:url("../images/lauren_e_and_jackie.jpeg") 0 300px;		
+}
+
+#lauren_k_pic {
+	background:url("../images/lauren_k_and_jackie.jpeg") 0 0;	
+}
+
+#lauren_k_pic:hover {
+	background:url("../images/lauren_k_and_jackie.jpeg") 0 300px;		
+}
+
+#meg_l_pic {
+	background:url("../images/meg_l_and_jackie.jpeg") 0 0;	
+}
+
+#meg_l_pic:hover {
+	background:url("../images/meg_l_and_jackie.jpeg") 0 300px;		
+}
+
+#googs_pic {
+	background:url("../images/googs_and_jackie.jpeg") 0 0;	
+}
+
+#googs_pic:hover {
+	background:url("../images/googs_and_jackie.jpeg") 0 300px;		
+}
+
+#brad_pic {
+	background:url("../images/brad_and_sean.jpeg") 0 0;	
+}
+
+#brad_pic:hover {
+	background:url("../images/brad_and_sean.jpeg") 0 300px;		
+}
+
+#matt_pic {
+	background:url("../images/matt_and_sean.jpeg") 0 0;			
+}
+
+#matt_pic:hover {
+	background:url("../images/matt_and_sean.jpeg") 0 300px;			
+}
+
+#john_pic {
+	background:url("../images/john_and_sean.jpeg") 0 0;			
+}
+
+#john_pic:hover {
+	background:url("../images/john_and_sean.jpeg") 0 300px;			
+}
+
+#spencer_pic {
+	background:url("../images/spencer_and_sean.jpeg") 0 0;			
+}
+
+#spencer_pic:hover {
+	background:url("../images/spencer_and_sean.jpeg") 0 300px;			
+}
+
+#brad_k_pic {
+	background:url("../images/brad_k_and_sean.jpeg") 0 0;			
+}
+
+#brad_k_pic:hover {
+	background:url("../images/brad_k_and_sean.jpeg") 0 300px;			
+}
+
+#the_interlude {
+	background-color: #201303;
+	background-image: url("../images/jackie_sean_wedding_2.jpeg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: 50% 50%;
+	min-width: 640px;	
+	height: 600px;
+}
+
+#the_interlude_dos {
+	background-color: #201303;
+	background-image: url("../images/jackie_sean_wedding_1.jpeg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: 50% 50%;
+	min-width: 640px;	
+	height: 600px;
+}
+
+#the_interlude_tres {
+	background-color: #201303;
+	background-image: url("../images/jackie_sean_wedding_4.jpeg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: 50% 50%;
+	min-width: 640px;	
+	height: 600px;
+}
