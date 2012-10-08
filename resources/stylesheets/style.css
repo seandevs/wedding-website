@@ -14,7 +14,7 @@ body {
 	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 	color: #fff;
 	text-align: center;
-	background-color: #201303;
+	background-color: #fff;
 	background-image: url("../images/jackie_sean_wedding_3.jpeg");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -24,7 +24,7 @@ body {
 }
 
 html.backgroundsize body { 
-    background: #201303 url("../images/jackie_sean_wedding_3.jpeg") no-repeat center center fixed; 
+    background: #fff url("../images/jackie_sean_wedding_3.jpeg") no-repeat center center fixed; 
     background-size: cover;
 }
 
@@ -267,7 +267,7 @@ p.our_info {
 }
 
 #the_interlude {
-	background-color: #201303;
+	background-color: #fff;
 	background-image: url("../images/jackie_sean_wedding_2.jpeg");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -278,7 +278,7 @@ p.our_info {
 }
 
 #the_interlude_dos {
-	background-color: #201303;
+	background-color: #fff;
 	background-image: url("../images/jackie_sean_wedding_1.jpeg");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -289,7 +289,7 @@ p.our_info {
 }
 
 #the_interlude_tres {
-	background-color: #201303;
+	background-color: #fff;
 	background-image: url("../images/jackie_sean_wedding_4.jpeg");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
