@@ -6,11 +6,12 @@ $(document).ready(function() {
 	     $("p.scroll").fadeOut('slow');
 	  });
 	});
+	console.log(navigator.platform)
 });
 
 function getInfo() {
 	  var hidden = $('#top_area').offset().top;
-	  if(hidden - $(window).scrollTop() == hidden){
+	  if(jQuery.browser.webkit && navigator.platform == "MacIntel" && hidden - $(window).scrollTop() == hidden){
 	  	$("p.scroll").fadeIn('slow');
 	  };	
 }
