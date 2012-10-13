@@ -39,23 +39,19 @@ html.backgroundsize body {
 	position: relative;
 	top: 40px;
 	left: 80px;
+	font-size: 1.5em;
+	color: #999;
+}
+
+h1 {
+	color: #999;
 	font-size: 1.7em;
 	font-family: 'shappens';
-	color: #999;
 }
 
 #primary_info .location {
-	font-size: .5em;
-	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-}
-
-#primary_info h1 {
-	color: #999;
-	font-size: 1.1em;
-	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-	text-decoration: none;
-	padding-bottom: 5px;
-	margin-top: -3px;
+	margin-top: 10px;
+	font-size: .6em;
 }
 
 p.scroll {
@@ -121,7 +117,6 @@ section li {
 }
 
 section li p {
-	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 	color: #888;
 	font-size: 1em;	
 	padding: 0;
@@ -154,7 +149,6 @@ span {
 }
 
 p.our_info {
-	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 	color: #888;
 	line-height: 1.5;
 	width: 80%;
