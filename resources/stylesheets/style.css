@@ -88,12 +88,21 @@ section {
 	padding-bottom: 50px;		
 }
 
-section h2 {
+h2 {
 	font-family: 'shappens';
 	padding: 30px 0 0;
 	color: #000;
 	font-size: 3em;		
 }
+
+h3 {
+	color: #888;
+	padding-top: 30px;
+	padding-bottom: 5px;
+	font-size: 2.6em;
+	font-family: 'shappens';
+}
+
 
 section p {
 	color: #000;
@@ -109,14 +118,6 @@ section ul {
 section li {
 	width: 100%;
 	clear: both;
-}
-
-section li h3 {
-	color: #888;
-	padding-top: 30px;
-	padding-bottom: 5px;
-	font-size: 1.5em;
-	font-family: 'shappens';
 }
 
 section li p {
@@ -159,6 +160,7 @@ p.our_info {
 	width: 80%;
 	margin: 0 auto;
 	text-align: center;	
+	clear: both;
 }
 
 
@@ -257,7 +259,46 @@ p.our_info {
 	background:url("../images/brad_k_and_sean.jpeg") 0 300px;			
 }
 
-#the_interlude {
+#ken_karen_pic {
+	background:url("../images/ken_and_karen.jpeg") 0 0;	
+}
+
+#ken_karen_pic:hover {
+	background:url("../images/ken_and_karen.jpeg") 0 300px;	
+}
+
+#donald_marlene_pic {
+	background:url("../images/donald_and_marlene.jpeg") 0 0;	
+}
+
+#parents_total {
+	width: 80%;
+	margin: 0 auto;
+}
+
+#donald_marlene_pic:hover {
+	background:url("../images/donald_and_marlene.jpeg") 0 300px;	
+}
+
+#section_left {
+	float: left;
+	margin-left: 5%;
+}
+
+#section_right {
+	float: right;
+	margin-right: 5%;
+}
+
+p.footer {
+	font-size: 1em;
+	color: #565656;
+	position: relative;
+	bottom: -40px;
+	font-weight: 100;
+}
+
+#the_interlude, #the_interlude_dos, #the_interlude_tres, #the_interlude_quatro {
 	background-color: #fff;
 	background-image: url("../images/jackie_sean_wedding_2.jpeg");
 	background-repeat: no-repeat;
@@ -269,23 +310,13 @@ p.our_info {
 }
 
 #the_interlude_dos {
-	background-color: #fff;
 	background-image: url("../images/jackie_sean_wedding_1.jpeg");
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-size: cover;
-	background-position: 50% 50%;
-	min-width: 640px;	
-	height: 600px;
 }
 
 #the_interlude_tres {
-	background-color: #fff;
-	background-image: url("../images/jackie_sean_wedding_4.jpeg");
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-size: cover;
-	background-position: 50% 50%;
-	min-width: 640px;	
-	height: 600px;
+	background-image: url("../images/jackie_sean_wedding_8.jpeg");
+}
+
+#the_interlude_quatro {
+	background-image: url("../images/jackie_sean_wedding_4.jpeg");	
 }
