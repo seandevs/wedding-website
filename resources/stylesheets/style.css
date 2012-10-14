@@ -7,7 +7,7 @@ a {
 }
 
 a:hover {
-	color: #111;
+	color: #000;
 }
 
 body {
@@ -77,7 +77,10 @@ p.scroll:after {
 }
 
 
-section {
+section, footer {
+/*	-moz-box-shadow: 0 0 5px 5px #888;
+	-webkit-box-shadow: 0 0 5px 5px #888;
+	box-shadow: 0 0 5px 5px #888;*/
 	background-color: #fff;
 	width: 100%;
 	overflow: hidden;
@@ -148,13 +151,17 @@ span {
 	padding-top: 5px;
 }
 
-p.our_info {
+.our_info, .our_info_big {
 	color: #888;
 	line-height: 1.5;
 	width: 80%;
 	margin: 0 auto;
 	text-align: center;	
 	clear: both;
+}
+
+.our_info_big {
+	font-size: 1.4em;
 }
 
 
@@ -251,6 +258,14 @@ p.our_info {
 
 #brad_k_pic:hover {
 	background:url("../images/brad_k_and_sean.jpeg") 0 300px;			
+}
+
+#brennan_pic {
+	background:url("../images/brennan_and_sean.jpeg") 0 0;			
+}
+
+#brennan_pic:hover {
+	background:url("../images/brennan_and_sean.jpeg") 0 300px;			
 }
 
 #ken_karen_pic {
