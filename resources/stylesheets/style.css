@@ -143,7 +143,12 @@ section h4 {
 	margin: 0;
 }
 
-span {
+.small_italic {
+	font-style: italic;
+	font-weight: 100;
+}
+
+.bit_italic {
 	font-size: 1.3em;
 	font-style: italic;
 	color: #ccc;
