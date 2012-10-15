@@ -148,7 +148,7 @@ section h4 {
 	font-weight: 100;
 }
 
-.bit_italic {
+.big_italic {
 	font-size: 1.3em;
 	font-style: italic;
 	color: #ccc;
@@ -166,7 +166,7 @@ section h4 {
 }
 
 .our_info_big {
-	font-size: 1.4em;
+	font-size: 1.2em;
 	width: 50%;
 }
 
