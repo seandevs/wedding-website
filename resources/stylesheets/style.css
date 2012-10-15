@@ -37,7 +37,7 @@ html.backgroundsize body {
 #primary_info {
 	float: left;
 	position: relative;
-	top: 40px;
+	top: 25px;
 	left: 80px;
 	font-size: 1.5em;
 	color: #aaa;
