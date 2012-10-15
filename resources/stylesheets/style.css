@@ -9,13 +9,13 @@ a {
 a:hover {
 	color: #000;
 }
-
+	
 body {
 	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 	color: #fff;
 	text-align: center;
 	background-color: #fff;
-	background-image: url("../images/jackie_sean_wedding_3.jpeg");
+	background-image: url("http://content.jackieandseangetmarried.com/images/jackie_sean_wedding_3.jpeg");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
@@ -24,7 +24,7 @@ body {
 }
 
 html.backgroundsize body { 
-    background: #fff url("../images/jackie_sean_wedding_3.jpeg") no-repeat center center fixed; 
+    background: #fff url("http://content.jackieandseangetmarried.com/images/jackie_sean_wedding_3.jpeg") no-repeat center center fixed; 
     background-size: cover;
 }
 
@@ -162,6 +162,7 @@ span {
 
 .our_info_big {
 	font-size: 1.4em;
+	width: 50%;
 }
 
 
@@ -173,111 +174,111 @@ span {
 }
 
 #jen_pic {
-	background:url("../images/jen_and_jackie.jpeg") 0 0;	
+	background:url("http://content.jackieandseangetmarried.com/images/jen_and_jackie.jpeg") 0 0;	
 }
 
 #jen_pic:hover {
-	background:url("../images/jen_and_jackie.jpeg") 0 300px;		
+	background:url("http://content.jackieandseangetmarried.com/images/jen_and_jackie.jpeg") 0 300px;		
 }
 
 #meg_d_pic {
-	background:url("../images/meg_d_and_jackie.jpeg") 0 0;	
+	background:url("http://content.jackieandseangetmarried.com/images/meg_d_and_jackie.jpeg") 0 0;	
 }
 
 #meg_d_pic:hover {
-	background:url("../images/meg_d_and_jackie.jpeg") 0 300px;		
+	background:url("http://content.jackieandseangetmarried.com/images/meg_d_and_jackie.jpeg") 0 300px;		
 }
 
 #lauren_e_pic {
-	background:url("../images/lauren_e_and_jackie.jpeg") 0 0;	
+	background:url("http://content.jackieandseangetmarried.com/images/lauren_e_and_jackie.jpeg") 0 0;	
 }
 
 #lauren_e_pic:hover {
-	background:url("../images/lauren_e_and_jackie.jpeg") 0 300px;		
+	background:url("http://content.jackieandseangetmarried.com/images/lauren_e_and_jackie.jpeg") 0 300px;		
 }
 
 #lauren_k_pic {
-	background:url("../images/lauren_k_and_jackie.jpeg") 0 0;	
+	background:url("http://content.jackieandseangetmarried.com/images/lauren_k_and_jackie.jpeg") 0 0;	
 }
 
 #lauren_k_pic:hover {
-	background:url("../images/lauren_k_and_jackie.jpeg") 0 300px;		
+	background:url("http://content.jackieandseangetmarried.com/images/lauren_k_and_jackie.jpeg") 0 300px;		
 }
 
 #meg_l_pic {
-	background:url("../images/meg_l_and_jackie.jpeg") 0 0;	
+	background:url("http://content.jackieandseangetmarried.com/images/meg_l_and_jackie.jpeg") 0 0;	
 }
 
 #meg_l_pic:hover {
-	background:url("../images/meg_l_and_jackie.jpeg") 0 300px;		
+	background:url("http://content.jackieandseangetmarried.com/images/meg_l_and_jackie.jpeg") 0 300px;		
 }
 
 #googs_pic {
-	background:url("../images/googs_and_jackie.jpeg") 0 0;	
+	background:url("http://content.jackieandseangetmarried.com/images/googs_and_jackie.jpeg") 0 0;	
 }
 
 #googs_pic:hover {
-	background:url("../images/googs_and_jackie.jpeg") 0 300px;		
+	background:url("http://content.jackieandseangetmarried.com/images/googs_and_jackie.jpeg") 0 300px;		
 }
 
 #brad_pic {
-	background:url("../images/brad_and_sean.jpeg") 0 0;	
+	background:url("http://content.jackieandseangetmarried.com/images/brad_and_sean.jpeg") 0 0;	
 }
 
 #brad_pic:hover {
-	background:url("../images/brad_and_sean.jpeg") 0 300px;		
+	background:url("http://content.jackieandseangetmarried.com/images/brad_and_sean.jpeg") 0 300px;		
 }
 
 #matt_pic {
-	background:url("../images/matt_and_sean.jpeg") 0 0;			
+	background:url("http://content.jackieandseangetmarried.com/images/matt_and_sean.jpeg") 0 0;			
 }
 
 #matt_pic:hover {
-	background:url("../images/matt_and_sean.jpeg") 0 300px;			
+	background:url("http://content.jackieandseangetmarried.com/images/matt_and_sean.jpeg") 0 300px;			
 }
 
 #john_pic {
-	background:url("../images/john_and_sean.jpeg") 0 0;			
+	background:url("http://content.jackieandseangetmarried.com/images/john_and_sean.jpeg") 0 0;			
 }
 
 #john_pic:hover {
-	background:url("../images/john_and_sean.jpeg") 0 300px;			
+	background:url("http://content.jackieandseangetmarried.com/images/john_and_sean.jpeg") 0 300px;			
 }
 
 #spencer_pic {
-	background:url("../images/spencer_and_sean.jpeg") 0 0;			
+	background:url("http://content.jackieandseangetmarried.com/images/spencer_and_sean.jpeg") 0 0;			
 }
 
 #spencer_pic:hover {
-	background:url("../images/spencer_and_sean.jpeg") 0 300px;			
+	background:url("http://content.jackieandseangetmarried.com/images/spencer_and_sean.jpeg") 0 300px;			
 }
 
 #brad_k_pic {
-	background:url("../images/brad_k_and_sean.jpeg") 0 0;			
+	background:url("http://content.jackieandseangetmarried.com/images/brad_k_and_sean.jpeg") 0 0;			
 }
 
 #brad_k_pic:hover {
-	background:url("../images/brad_k_and_sean.jpeg") 0 300px;			
+	background:url("http://content.jackieandseangetmarried.com/images/brad_k_and_sean.jpeg") 0 300px;			
 }
 
 #brennan_pic {
-	background:url("../images/brennan_and_sean.jpeg") 0 0;			
+	background:url("http://content.jackieandseangetmarried.com/images/brennan_and_sean.jpeg") 0 0;			
 }
 
 #brennan_pic:hover {
-	background:url("../images/brennan_and_sean.jpeg") 0 300px;			
+	background:url("http://content.jackieandseangetmarried.com/images/brennan_and_sean.jpeg") 0 300px;			
 }
 
 #ken_karen_pic {
-	background:url("../images/ken_and_karen.jpeg") 0 0;	
+	background:url("http://content.jackieandseangetmarried.com/images/ken_and_karen.jpeg") 0 0;	
 }
 
 #ken_karen_pic:hover {
-	background:url("../images/ken_and_karen.jpeg") 0 300px;	
+	background:url("http://content.jackieandseangetmarried.com/images/ken_and_karen.jpeg") 0 300px;	
 }
 
 #donald_marlene_pic {
-	background:url("../images/donald_and_marlene.jpeg") 0 0;	
+	background:url("http://content.jackieandseangetmarried.com/images/donald_and_marlene.jpeg") 0 0;	
 }
 
 #parents_total {
@@ -286,7 +287,7 @@ span {
 }
 
 #donald_marlene_pic:hover {
-	background:url("../images/donald_and_marlene.jpeg") 0 300px;	
+	background:url("http://content.jackieandseangetmarried.com/images/donald_and_marlene.jpeg") 0 300px;	
 }
 
 #section_left {
@@ -309,7 +310,7 @@ p.footer {
 
 #the_interlude, #the_interlude_dos, #the_interlude_tres, #the_interlude_quatro {
 	background-color: #fff;
-	background-image: url("../images/jackie_sean_wedding_2.jpeg");
+	background-image: url("http://content.jackieandseangetmarried.com/images/jackie_sean_wedding_2.jpeg");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
@@ -319,13 +320,13 @@ p.footer {
 }
 
 #the_interlude_dos {
-	background-image: url("../images/jackie_sean_wedding_1.jpeg");
+	background-image: url("http://content.jackieandseangetmarried.com/images/jackie_sean_wedding_1.jpeg");
 }
 
 #the_interlude_tres {
-	background-image: url("../images/jackie_sean_wedding_8.jpeg");
+	background-image: url("http://content.jackieandseangetmarried.com/images/jackie_sean_wedding_8.jpeg");
 }
 
 #the_interlude_quatro {
-	background-image: url("../images/jackie_sean_wedding_4.jpeg");	
+	background-image: url("http://content.jackieandseangetmarried.com/images/jackie_sean_wedding_4.jpeg");	
 }
